@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var letterButtons: [UIButton]!
     
+    
     var listOfWords = ["buccaneer", "swift", "glorious", "incandescent", "bug", "program"]
     let incorrectMovesAllowed = 7
     
@@ -30,7 +31,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         newRound()
         
-}
+    }
     
     var currentGame: Game!
     
